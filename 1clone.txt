@@ -17,3 +17,4 @@ status change to staged after we "add" those changes by the below command.
  >> git add .
 
 4  Unmodified i.e. There have been no change in this fiels.
+    This happens after the changes have been commited.
