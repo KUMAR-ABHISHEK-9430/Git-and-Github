@@ -1,0 +1,3 @@
+To get content of repo to your local machine
+use this command
+>> git clone repo link
