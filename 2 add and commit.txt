@@ -18,3 +18,20 @@ if working for long time on same repo use "-u"
     after that we push by 
     >> git push
 
+
+message(green) after successfull add
+    new file:   2 add and commit.txt
+    new file:   3 local to remote.txt
+
+
+message after successfull push
+
+    Enumerating objects: 5, done.
+    Counting objects: 100% (5/5), done.
+    Delta compression using up to 12 threads
+    Compressing objects: 100% (4/4), done.
+    Writing objects: 100% (4/4), 1.24 KiB | 1.24 MiB/s, done.
+    Total 4 (delta 0), reused 0 (delta 0), pack-reused 0  
+    To https://github.com/KUMAR-ABHISHEK-9430/Git-and-Github.git
+    111163d..16a798e  main -> main
+    branch 'main' set up to track 'origin/main'.
