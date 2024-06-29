@@ -1,0 +1,48 @@
+In this we will see how repo can be made in local machine and linked with Github.
+
+To make any folder to git folder first make folder and initialze git by writing this command
+    >> git init
+To check if the folder is git folder or not we can do by writting this command in terminal
+    >> ls -Force  
+or by  >> ls -a
+or >> dir /a
+
+After git is initialze we write the following command to link local repo to github
+    >> git remote add origin  link_repo
+
+link_repo = is obtain by creating repo on github.
+
+After linking do your work add it, commit it.Then proceed.
+
+After linking local repo to github to check branch by 
+    >> git remote -v
+
+Branch should be either main or your desired branch.
+    >> git branch
+
+If branch is "master" change it to main by 
+    >> git branch -M main
+    the above command is for changing branch name
+
+After that push code by 
+    >> git push origin main
+    or by 
+    >> git push -u origin main
+    here "-u"  represent upstream by this we can avoid writing git push origin main repeatitively if we are working on same repo for long time.
+    Once written after that we have to only write 
+    >> git push 
+
+
+## Work flow
+
+1 make folder
+2 change working directory by cd command
+3 initialize git init
+4 link folder to github by git remote add origin
+5 do your work
+6 add your work
+7 commit 
+8 check branch and rename to main
+9 push
+
+

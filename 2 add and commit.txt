@@ -1,0 +1,20 @@
+ # add and commit
+
+When any change is made in the repo in local machine those changes have to be stored in the local machine (i.e Laptop or Desktop).
+Whenever any change is commited in the local machine it acts a version.
+After that we push that so it can be accessed remotely.
+
+# add command 
+    >> git add  filename
+or to add all files
+    >> git add .
+# push command
+
+    >> git push origin main
+
+if working for long time on same repo use "-u"
+
+    >> git push -u origin main   #(single time)
+    after that we push by 
+    >> git push
+
