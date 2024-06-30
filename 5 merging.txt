@@ -1,3 +1,9 @@
+Commit can be made in remote repo. So, before merging use 
+    >> git pull origin main
+this gets us latest version of repo in our local machine.
+ 
+ 
+ 
  After completing work in different branch we have to merge it.
  As changes done in different branch is unknown to main, we have to merge it.
 
