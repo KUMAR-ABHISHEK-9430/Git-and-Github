@@ -20,3 +20,48 @@
 
     branchname = name of branch to which we want to merge our working branch
     
+
+Message of git diff looks like :
+
+            PS C:\Users\kumar\coding\Github\Git-and-Github> git diff main
+          diff --git a/4 git branch b/4 git branch
+          deleted file mode 100644
+          index 4daecf9..0000000
+          --- a/4 git branch
+          +++ /dev/null
+          @@ -1,8 +0,0 @@
+          -# Branch command
+          -
+          -git branch  (to check branch)
+          -git branch -M newname  (to rename branch)
+          -git checkout <branch name>   (to navigate branch)
+          -git checkout -b <new branch name> (to make new branch)
+          -
+          -git -d <branchname>  (to delete branch)
+          \ No newline at end of file
+          diff --git a/4 git branch.txt b/4 git branch.txt
+          new file mode 100644
+          index 0000000..1ccb6f3
+          --- /dev/null
+          +++ b/4 git branch.txt
+          @@ -0,0 +1,27 @@
+          +# Branch command
+          +
+          +1   >> git branch  (to check branch)
+          +2  >> git branch -M newname  (to rename branch)
+          +3   >>git checkout <branch name>   (to navigate branch)
+          +4  >> git checkout -b <new branch name> (to make new branch)
+          +5   >> git branch -r          (To know all remote branch)
+          +6   >> git branch -a          (To get all remote and local branch)
+          +
+
+
+          
+Message after successfull merging :
+
+          PS C:\Users\kumar\coding\Github\Git-and-Github> git merge merging
+        Merge made by the 'ort' strategy.
+        4 git branch.txt | 10 ++++++----
+        5 merging.txt    | 22 ++++++++++++++++++++++
+        2 files changed, 28 insertions(+), 4 deletions(-)
+        create mode 100644 5 merging.txt
