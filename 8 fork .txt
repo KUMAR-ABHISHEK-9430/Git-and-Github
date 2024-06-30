@@ -1,0 +1,10 @@
+Fork is a new repo that code and visibility settings with original  "upsteam" repo.
+
+Fork is like rough copy.
+
+Go to github search bar 
+find repo
+click Fork
+it will be copied to your account
+
+If you want to merge with the master branch of original repo create PR.
