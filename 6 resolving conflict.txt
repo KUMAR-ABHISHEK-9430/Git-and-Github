@@ -1,5 +1,6 @@
 If in different branch in same file there is difference, then in merging conflict will be raised.
 
-for example : This line is be different in other branch.
+for example : This line will  be different in other branch.
 
  987654321
+
