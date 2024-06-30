@@ -1,9 +1,11 @@
 # Branch command
 
-1    git branch  (to check branch)
-2   git branch -M newname  (to rename branch)
-3   git checkout <branch name>   (to navigate branch)
-4   git checkout -b <new branch name> (to make new branch)
+1   >> git branch  (to check branch)
+2  >> git branch -M newname  (to rename branch)
+3   >>git checkout <branch name>   (to navigate branch)
+4  >> git checkout -b <new branch name> (to make new branch)
+5   >> git branch -r          (To know all remote branch)
+6   >> git branch -a          (To get all remote and local branch)
 
 5   git -d <branchname>  (to delete branch)
  checkout before delete

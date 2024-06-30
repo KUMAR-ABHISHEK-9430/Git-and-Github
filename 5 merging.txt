@@ -1,0 +1,22 @@
+ After completing work in different branch we have to merge it.
+ As changes done in different branch is unknown to main, we have to merge it.
+
+ Merging can be done by 2 methods 
+  1 By PR (pull request)
+
+    after push to new branch go to github
+    There compare and merge option  will be shown click on that
+
+
+  2 By terminal
+    >> git diff  branchname   
+
+
+    git diff  = to compare 2 branch, commit,files.
+
+    branchname = name of that branch with which we want to compare our working branch
+
+    >> git merge  branchname
+
+    branchname = name of branch to which we want to merge our working branch
+    
