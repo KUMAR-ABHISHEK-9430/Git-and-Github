@@ -1,0 +1,31 @@
+case 1 : Staged changes (after add)
+
+    >> git reset filename
+
+    filename = name of file in which we want to remove things.
+
+    >> git reset
+
+    to undo all adds
+
+
+case 2 :  commited change (for 1 commit)
+
+    >> git reset HEAD~ 1
+
+    it will set head to previous node
+
+
+case 3 :  commited change (for multiple commit)
+
+    >> git reset  <commit hash>
+
+    <commit hash> = hash code of commit to which we want or go
+
+    hash code can be obtained by 
+    >> git log
+
+
+#
+    >> git reset --hard  <commit hash>
+This will remove those things that were done in removed commit from code editor.
